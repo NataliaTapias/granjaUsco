@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="cronogramaUSQUITO" company="" webLink="http://" view-date="2020-06-01" view-index="0" gantt-divider-location="434" resource-divider-location="552" version="2.8.11" locale="es">
+    <description/>
+    <view zooming-state="default:8" id="gantt-chart">
+        <field id="tpd3" name="Nombre" width="215" order="0"/>
+        <field id="tpd4" name="Fecha de inicio" width="100" order="1"/>
+        <field id="tpd5" name="Fecha de fin" width="100" order="2"/>
+        <option id="color.recent"><![CDATA[#000066 #00ffcc #33ffcc #666666 #0000cc #00cc00 #33cc00 #ffff33 #ff3333 #000099]]></option>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Nombre" width="335" order="0"/>
+        <field id="1" name="Función" width="213" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="171" name="Cronograma" color="#8cb6ce" meeting="false" start="2020-05-25" duration="6" complete="100" thirdDate="2020-06-01" thirdDate-constraint="0" expand="true"/>
+        <task id="4" name="Levantamiento de requisitos" color="#ffff00" meeting="false" start="2020-06-02" duration="10" complete="100" thirdDate="2020-05-11" thirdDate-constraint="0" expand="true">
+            <depend id="89" type="2" difference="0" hardness="Strong"/>
+            <task id="23" name="Competencias necesarias del software" color="#ffff33" meeting="false" start="2020-06-02" duration="5" complete="100" thirdDate="2019-09-02" thirdDate-constraint="0" expand="true"/>
+            <task id="168" name="Requerimentos no funcionales" color="#8cb6ce" meeting="false" start="2020-06-10" duration="2" complete="100" thirdDate="2020-06-01" thirdDate-constraint="0" expand="true"/>
+            <task id="167" name="Requerimentos funcionales" color="#8cb6ce" meeting="false" start="2020-06-11" duration="3" complete="100" thirdDate="2020-06-01" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="89" name="Desarrollo documentación" color="#000000" meeting="false" start="2020-06-16" duration="50" complete="82" thirdDate="2020-07-07" thirdDate-constraint="0" expand="true">
+            <depend id="48" type="2" difference="0" hardness="Strong"/>
+            <task id="96" name="Objetivos" color="#8cb6ce" meeting="false" start="2020-06-16" duration="3" complete="100" thirdDate="2020-07-07" thirdDate-constraint="0" expand="true">
+                <depend id="118" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="163" name="Justificación" color="#8cb6ce" meeting="false" start="2020-06-17" duration="3" complete="100" thirdDate="2020-07-07" thirdDate-constraint="0" expand="true"/>
+            <task id="166" name="Misión" color="#8cb6ce" meeting="false" start="2020-06-22" duration="3" complete="100" thirdDate="2020-07-07" thirdDate-constraint="0" expand="true"/>
+            <task id="165" name="Visión" color="#8cb6ce" meeting="false" start="2020-06-24" duration="2" complete="100" thirdDate="2020-07-07" thirdDate-constraint="0" expand="true">
+                <depend id="118" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="118" name="Resumen" color="#8cb6ce" meeting="false" start="2020-06-26" duration="4" complete="100" thirdDate="2020-07-20" thirdDate-constraint="0" expand="true">
+                <depend id="112" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="112" name="Marco conceptual" color="#8cb6ce" meeting="false" start="2020-07-02" duration="2" complete="100" thirdDate="2020-07-08" thirdDate-constraint="0" expand="true">
+                <depend id="114" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="114" name="Marco teorico" color="#8cb6ce" meeting="false" start="2020-07-06" duration="3" complete="100" thirdDate="2020-07-10" thirdDate-constraint="0" expand="true"/>
+            <task id="135" name="Marco legal" color="#8cb6ce" meeting="false" start="2020-07-09" duration="3" complete="100" thirdDate="2020-07-07" thirdDate-constraint="0" expand="true"/>
+            <task id="158" name="Viabilidad" color="#8cb6ce" meeting="false" start="2020-07-14" duration="3" complete="100" thirdDate="2020-07-07" thirdDate-constraint="0" expand="true">
+                <depend id="126" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="126" name="Metodologia" color="#8cb6ce" meeting="false" start="2020-07-17" duration="3" complete="100" thirdDate="2020-07-09" thirdDate-constraint="0" expand="true"/>
+            <task id="149" name="Diagramas" color="#8cb6ce" meeting="false" start="2020-07-22" duration="3" complete="100" thirdDate="2020-07-07" thirdDate-constraint="0" expand="true">
+                <depend id="132" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="132" name="Planteamiendo de solucion" color="#8cb6ce" meeting="false" start="2020-07-27" duration="3" complete="0" thirdDate="2020-07-14" thirdDate-constraint="0" expand="true"/>
+            <task id="140" name="Recursos" color="#000000" meeting="false" start="2020-07-30" duration="4" complete="100" thirdDate="2020-09-03" thirdDate-constraint="0" expand="true"/>
+            <task id="144" name="Diseño pagina web y base de datos" color="#00cc00" meeting="false" start="2020-08-05" duration="7" complete="0" thirdDate="2020-08-03" thirdDate-constraint="0" expand="true">
+                <task id="146" name="Diseñar mockup pagina web" color="#33cc00" meeting="false" start="2020-08-05" duration="7" complete="0" thirdDate="2020-06-01" thirdDate-constraint="0" expand="true"/>
+            </task>
+            <task id="147" name="Verificacion y aprobacion Diseño web" color="#0000ff" meeting="false" start="2020-08-14" duration="5" complete="100" thirdDate="2020-09-03" thirdDate-constraint="0" expand="true"/>
+            <task id="156" name="Anexos" color="#8cb6ce" meeting="false" start="2020-08-18" duration="2" complete="100" thirdDate="2020-07-07" thirdDate-constraint="0" expand="true"/>
+            <task id="154" name="Conclusión" color="#8cb6ce" meeting="false" start="2020-08-20" duration="3" complete="100" thirdDate="2020-07-07" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="17" name="Desarrollo pagina web" color="#00ffcc" meeting="false" start="2020-08-25" duration="10" complete="100" thirdDate="2020-11-02" thirdDate-constraint="0" expand="true">
+            <task id="170" name="Desarollo" color="#8cb6ce" meeting="false" start="2020-08-25" duration="10" complete="100" thirdDate="2020-06-01" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="22" name="Mantenimiento y servicio tecnico a pagina web" color="#000099" shape="1,0,1,0,0,1,0,1,1,0,1,0,0,1,0,1" meeting="false" start="2020-08-25" duration="90" complete="0" thirdDate="2020-11-02" thirdDate-constraint="0" expand="true">
+            <task id="48" name="Correccion constante de errores" color="#000066" meeting="false" start="2020-08-25" duration="90" complete="0" thirdDate="2020-07-27" thirdDate-constraint="0" expand="true"/>
+        </task>
+    </tasks>
+    <resources>
+        <resource id="0" name="Juan Edison Giraldo Zuluaga" function="Default:1" contacts="juanedison@gmail.com" phone="320 2428149">
+            <rate name="standard" value="60000"/>
+        </resource>
+        <resource id="1" name="Natalia Tapias" function="5" contacts="natalia@gmail.com" phone="34354354">
+            <rate name="standard" value="50000"/>
+        </resource>
+        <resource id="3" name="Juan Edison Giraldo" function="3" contacts="juanedison@gmail.com" phone="320 2428149">
+            <rate name="standard" value="60000"/>
+        </resource>
+        <resource id="4" name="Fabricio Cardozo" function="1" contacts="fabioaru@gmail.com" phone="+57 317 5496291">
+            <rate name="standard" value="50000"/>
+        </resource>
+        <resource id="5" name="Andres Felipe Parra Ceballos" function="2" contacts="andresparraparra-@hotmail.com" phone="3053942411">
+            <rate name="standard" value="50000"/>
+        </resource>
+        <resource id="6" name="Andres Felipe Parra Ceballos" function="3" contacts="andresparraparra-@hotmail.com" phone="3053942411">
+            <rate name="standard" value="50000"/>
+        </resource>
+        <resource id="7" name="Diego Alejandro Perdomo " function="1" contacts="alejousco29@gmail.com" phone="320 9744111">
+            <rate name="standard" value="50000"/>
+        </resource>
+    </resources>
+    <allocations>
+        <allocation task-id="4" resource-id="1" function="5" responsible="true" load="100.0"/>
+        <allocation task-id="89" resource-id="1" function="5" responsible="true" load="100.0"/>
+        <allocation task-id="22" resource-id="3" function="3" responsible="true" load="100.0"/>
+        <allocation task-id="89" resource-id="4" function="1" responsible="false" load="100.0"/>
+        <allocation task-id="22" resource-id="6" function="3" responsible="true" load="100.0"/>
+    </allocations>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+    <roles>
+        <role id="1" name="Diseñador web"/>
+        <role id="2" name="Diseñador base de datos"/>
+        <role id="3" name="desarrollador web"/>
+        <role id="4" name="administracion base de datos"/>
+        <role id="5" name="Entrevistador "/>
+    </roles>
+</project>
